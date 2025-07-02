@@ -1,0 +1,30 @@
+# Ignore Eclipse project settings
+*.launch
+*.project
+*.cproject
+*.settings/
+RemoteSystemsTempFiles/
+software/RemoteSystemsTempFiles/
+hardware/RemoteSystemsTempFiles/
+
+# Ignore Vivado/Vitis intermediate and generated output
+*.jou
+*.str
+*.xml
+*.html
+*.xsa
+*.rpt
+*.cache/
+*.runs/
+*.ip_user_files/
+*.hw/
+*.sim/
+*.sdk/
+*.xpr
+*.xise
+*.vivado.log
+vivado.*
+
+
+hardware/bouncing_ball_proj/
+!hardware/bouncing_ball_proj/bouncing_ball_proj.xpr
